@@ -1,0 +1,376 @@
+.business {
+    margin-top: -12px;
+  }
+
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    margin-top: -50px;
+  }
+
+  .menu li {
+    margin: 15px 0;
+    margin-left: 30px;
+    width: 150px;
+    padding: 8px 10px 8px 15px;
+  }
+
+  .menu-logo {
+    height: 25px;
+    display: flex;
+    
+  }
+  
+  .r-menu-logo {
+    height: 27px;
+    display: flex;
+  }
+  
+  .heading {
+    display: flex;
+    margin-top: -25px;
+    align-items: center;
+    padding-left: 5px;
+  }
+  
+  .heading h4 {
+    margin-top: 50px;
+    font-size: 0.96rem;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  
+  .card-section {
+  
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 50px;
+    width: 90%;
+    height: auto; 
+ 
+  }
+  
+  .b-card {
+
+    position: relative;
+    background-color:  #FFF5E3;
+    color: #000;
+    margin-top: 1px;
+    margin-left: -30px;
+    margin-bottom: -2px;
+    padding:55px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    width: 125%;
+    height:100%;
+
+  }
+ 
+  .b-card1-icon {
+    margin-top: -40px;
+    margin-left: -10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .b-card2-icon {
+    margin-top: -40px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .b-card8-icon {
+    margin-top: -80px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .b-card2-content {
+    margin-left: -1px;
+  }
+  
+  .b-card2-content h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .b-card2-content p {
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  
+  .b-card3-icon{
+
+    background-color: black; 
+    color: white; 
+    position: absolute;
+    margin-top: -30px;
+    top: 5;
+    right: 38px;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; 
+    
+  }
+
+  .b-card3-content{
+    margin-left: 4px;
+  }
+  
+  .b-card3-content h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .b-card3-content p {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .b-card1-icon {
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .b-card4-icon {
+    position:absolute;
+    bottom: 4px;
+    left:82px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .b-card5-icon {
+    position:absolute;
+    bottom: 0.1px;
+    left:43px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .b-card6-icon {
+    position:absolute;
+    bottom: 1px;
+    left:710px;
+    left:42px;
+    margin-top:18px;
+    margin-left: 680px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .b-card7-icon {
+
+    position: absolute;
+    top: 5;
+    bottom: 8px;
+    left:730px;
+    margin-top: 20px;
+    margin-left: 43px;
+    padding: 8px;
+    border-radius: 10px;
+   
+
+ }
+  
+  .b-card4-content {
+    margin-left: 4px;
+  }
+  
+  .b-card4-content h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .b-card4-content p {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .b-card7-content p {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  
+  .dashboard-main-section {
+    display: flex;
+    flex: 1;
+    width: 98%;
+    margin-bottom: 40px;
+  }
+  
+  .table-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    width: 100%;
+  }
+    
+  .table-div {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  table {
+    margin-left: 20px;
+    width: 96%;
+    border-radius: 10px;
+    border-collapse: collapse;
+    background-color: #fffbf4;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    font-size: 0.9rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+  th {
+    background-color: #e7dbc7;
+  }
+  tr:nth-child(2n) {
+    background-color: #e7dbc742;
+  }
+  tr:nth-child(4n) {
+    background-color: #e7dbc742;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .right-container {
+      padding-left: 100px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .right-container {
+      padding-left: 50px;
+    }
+  }
+  
+  @media screen and (min-width: 1400px) {
+    .right-container {
+      padding-left: 0px;
+    }
+  }
+  
+  @media screen and (min-width: 1700px) {
+    .right-container {
+      margin-left: 17%;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  
+  .reject-button{
+    
+    position:absolute;
+    bottom:20px;
+    right:50px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+
+  .approve-button {
+    
+    position:absolute;
+    bottom:20px;
+    right:150px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button {
+    background-color: black;
+    color: white;
+  }
+  
+  .reject-button {
+    background-color: #ff4545;
+    color: white;
+  }
+  
+  .approve-button {
+    background-color: #00a372;
+    color: white;
+  }
+  
+  .download-button:hover,
+  .reject-button:hover,
+  .approve-button:hover {
+    opacity: 0.8;
+  }
+
+  .card-container {
+    position: relative;
+  }
+  
+  .download-statement {
+    position: absolute;
+    font-size: 14px;
+    top: 25px; 
+    right: 40px; 
+    background-color: #ffffff; 
+    padding: 5px 10px; 
+    border: none
+  }
+  
+.proceed-button {
+  padding: 10px 20px;
+  position: absolute;
+  top: 20px;
+  right:42px;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #363636; 
+  color: white; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.proceed-button span {
+  margin-left: 5px; 
+}
+
+.proceed-button:hover {
+  background-color: #b8b5b5; 
+}
+
+.bg-pink {
+  background-color: #f1e2c6;;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+  

@@ -1,0 +1,163 @@
+.business {
+    margin-top: -12px;
+  }
+
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    margin-top: -50px;
+  }
+
+  .menu li {
+    margin: 15px 0;
+    margin-left: 30px;
+    width: 150px;
+    padding: 8px 10px 8px 15px;
+  }
+
+  .menu-logo {
+    height: 25px;
+    display: flex;
+    
+  }
+  
+  .r-menu-logo {
+    height: 27px;
+    display: flex;
+  }
+  
+  .heading {
+    display: flex;
+    margin-top: -25px;
+    align-items: center;
+    padding-left: 5px;
+  }
+  
+  .heading h4 {
+    margin-top: 50px;
+    font-size: 0.96rem;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  
+  .card-section {
+   
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 50px;
+    width: 90%;
+    height: auto; 
+ 
+  }
+   
+  .table-div {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  table {
+    margin-left: 20px;
+    width: 96%;
+    border-radius: 10px;
+    border-collapse: collapse;
+    background-color: #fffbf4;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    font-size: 0.9rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+  th {
+    background-color: #e7dbc7;
+  }
+  tr:nth-child(2n) {
+    background-color: #e7dbc742;
+  }
+  tr:nth-child(4n) {
+    background-color: #e7dbc742;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .right-container {
+      padding-left: 100px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .right-container {
+      padding-left: 50px;
+    }
+  }
+  
+  @media screen and (min-width: 1400px) {
+    .right-container {
+      padding-left: 0px;
+    }
+  }
+  
+  @media screen and (min-width: 1700px) {
+    .right-container {
+      margin-left: 17%;
+    }
+  }
+
+
+.review-table {
+
+  width: 994px;  
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: -24px;
+  border-radius: 10px;
+   
+}
+
+.review-table th,
+.review-table td {
+  
+  padding: 12px;
+  text-align: left;
+  
+}
+
+.review-table th {
+  background-color: E7DBC7;
+  font-weight: bold;
+  color: black;
+
+}
+
+.review-table tbody tr:nth-child(even) {
+ 
+  background-color: #F9F3E9;
+  
+}
+
+.review-table tbody tr:hover {
+  background-color: #FFFBF4;
+ 
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+
+
+
+
+
+  
