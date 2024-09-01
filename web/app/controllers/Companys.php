@@ -9,7 +9,7 @@ class Companys extends Controller
 
   public function __construct()
   {
-    $this->companyModel = $this->model('company');
+    $this->companyModel = $this->model('Company');
     $suspend_data = $this->companyModel->getCompanySuspendDetails($_SESSION['user_id']);
     $approved_data = $this->companyModel->isApproved($_SESSION['user_id']);
     if (!isset($_SESSION['user_id'])) {

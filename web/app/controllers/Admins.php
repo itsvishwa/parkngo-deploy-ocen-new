@@ -6,7 +6,7 @@ class Admins extends Controller
 
   public function __construct()
   {
-    $this->adminModel = $this->model('admin');
+    $this->adminModel = $this->model('Admin');
 
     if (!isset($_SESSION['user_id'])) {
       redirect('users/login');
